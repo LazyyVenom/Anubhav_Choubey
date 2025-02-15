@@ -8,18 +8,15 @@
 .app {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 90%;
   flex-direction: row;
-}
-
-.column {
-  margin: 1rem;
-  padding: 2rem;
+  gap: 1rem;
 }
 
 .content_column {
-  width: 85%;
-  margin-right: 3rem;
+  width: 80%;
+  padding: 1rem;
+  background-color: #1a1a1a;
 }
 
 @media (max-width: 768px) {
@@ -27,15 +24,8 @@
     flex-direction: column;
   }
 
-  .sticky_column {
-    width: 100%;
-  }
-
   .content_column {
-    width: 100%;
+    width: 90%;
   }
 
-  .column {
-    margin: 1rem;
-  }
 }

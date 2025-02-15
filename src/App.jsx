@@ -5,10 +5,8 @@ function App() {
   return (
     <>
       <div className="app">
-        <div className="sticky_column column">
-          <StickyInfo />
-        </div>
-        <div className="content_column column">
+        <StickyInfo />
+        <div className="content_column">
           <h2>Middle Info</h2>
         </div>
       </div>
