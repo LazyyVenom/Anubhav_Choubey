@@ -1,7 +1,50 @@
 #root {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+
+.app {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: row;
+}
+
+.column {
+  margin: 1rem;
+  padding: 10%;
+}
+
+.sticky_column {
+  position: sticky;
+  margin-left: 3rem;
+  width: 10%;
+  background-color: rgb(65, 100, 100);
+}
+
+.content_column {
+  width: 90%;
+  margin-right: 3rem;
+  background-color: rgb(75, 53, 53);
+}
+
+@media (max-width: 768px) {
+  .app {
+    flex-direction: column;
+  }
+
+  .sticky_column {
+    width: 100%;
+  }
+
+  .content_column {
+    width: 100%;
+  }
+
+  .column {
+    margin: 1rem;
+  }
 }
