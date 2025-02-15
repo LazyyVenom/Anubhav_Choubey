@@ -1,3 +1,5 @@
+import './MainInfo.css';
+
 export default function MainInfo() {
   return (
     <div className="content_column">

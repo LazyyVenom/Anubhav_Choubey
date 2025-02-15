@@ -61,8 +61,6 @@ h1 {
 .content {
     flex: 2;
     padding: 0.2rem;
-    gap: 1rem;
-    row-gap: 1rem;
 }
 
 
@@ -101,4 +99,9 @@ h1 {
     .content {
         flex: 1;
     }
+
+    .social_links {
+        gap: 0.5rem;
+    }
+
 }

@@ -1,11 +1,11 @@
 import "./StickyInfo.css";
 import anubhavImage from "./assets/anubhav.png";
-import anubhavTransparent from "./assets/anubhav_transparent.png";
 import github from "./assets/icons/github.png";
 import linkedin from "./assets/icons/linkedin.png";
 import kaggle from "./assets/icons/kaggle.png";
 import mail from "./assets/icons/mail.png";
 import leetcode from "./assets/icons/leetcode.png";
+import resumeLogo from "./assets/icons/resume_logo.png";
 
 function IconButton({ href, src, alt }) {
   return (
@@ -50,6 +50,11 @@ export default function StickyInfo() {
             href="https://leetcode.com/u/lazyvenom/"
             src={leetcode}
             alt="Leetcode"
+          />
+          <IconButton
+            href="https://leetcode.com/u/lazyvenom/"
+            src={resumeLogo}
+            alt="Resume"
           />
         </div>
       </div>
