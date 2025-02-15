@@ -6,6 +6,7 @@
 }
 
 .app {
+  margin-top: 3%;
   display: flex;
   justify-content: space-between;
   width: 90%;
@@ -16,7 +17,6 @@
 .content_column {
   width: 80%;
   padding: 1rem;
-  background-color: #1a1a1a;
 }
 
 @media (max-width: 768px) {

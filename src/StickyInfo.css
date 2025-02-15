@@ -1,13 +1,16 @@
 .sticky_info {
     position: sticky;
+    top: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     border-radius: 3%;
     background-color: #1a1a1a;
     border: 2px solid #2e2e2e;
     width: 30%;
+    max-height: max-content;
 }
 
 .sticky_info:hover {
@@ -63,7 +66,6 @@ h1 {
 }
 
 
-
 .icon {
     width: 30px;
 }
@@ -76,9 +78,11 @@ h1 {
 
 @media (max-width: 768px) {
     .sticky_info {
+        padding: 1rem;
         width: 90%;
         flex-direction: row;
         align-items: center;
+        position: relative;
     }
 
     h1 {

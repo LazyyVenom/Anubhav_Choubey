@@ -27,29 +27,29 @@ export default function StickyInfo() {
         </p>
         <div className="social_links">
           <IconButton
-            href="https://github.com/anubhavchoubey"
+            href="https://github.com/LazyyVenom"
             src={github}
             alt="GitHub"
           />
           <IconButton
-            href="https://www.linkedin.com/in/anubhavchoubey"
+            href="https://in.linkedin.com/in/anubhav-choubey"
             src={linkedin}
             alt="LinkedIn"
           />
           <IconButton
-            href="https://www.linkedin.com/in/anubhavchoubey"
+            href="https://www.kaggle.com/choubeyanubhav"
             src={kaggle}
-            alt="LinkedIn"
+            alt="Kaggle"
           />
           <IconButton
-            href="https://www.linkedin.com/in/anubhavchoubey"
+            href="mailto:choubey.anubhav253@gmail.com"
             src={mail}
-            alt="LinkedIn"
+            alt="Mail"
           />
           <IconButton
-            href="https://www.linkedin.com/in/anubhavchoubey"
+            href="https://leetcode.com/u/lazyvenom/"
             src={leetcode}
-            alt="LinkedIn"
+            alt="Leetcode"
           />
         </div>
       </div>

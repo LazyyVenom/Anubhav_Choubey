@@ -1,14 +1,13 @@
 import './App.css'
 import StickyInfo from './StickyInfo'
+import MainInfo from './MainInfo'
 
 function App() {
   return (
     <>
       <div className="app">
         <StickyInfo />
-        <div className="content_column">
-          <h2>Main Info</h2>
-        </div>
+        <MainInfo />
       </div>
     </>
   )
