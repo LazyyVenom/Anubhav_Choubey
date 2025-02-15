@@ -1,5 +1,7 @@
 import "./StickyInfo.css";
 import anubhavImage from "./assets/anubhav.png";
+import github from "./assets/icons/github.png";
+import linkedin from "./assets/icons/linkedin.png";
 
 export default function StickyInfo() {
   return (
@@ -18,7 +20,7 @@ export default function StickyInfo() {
             rel="noopener noreferrer"
           >
             <img
-              src="https://image.flaticon.com/icons/png/512/25/25231.png"
+              src=""
               alt="GitHub"
               className="icon"
             />
