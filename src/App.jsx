@@ -7,7 +7,7 @@ function App() {
       <div className="app">
         <StickyInfo />
         <div className="content_column">
-          <h2>Middle Info</h2>
+          <h2>Main Info</h2>
         </div>
       </div>
     </>
