@@ -1,1 +1,3 @@
 Lets go.............
+
+color theme = https://coolors.co/d6413f-0f0505-020202-fafaff
